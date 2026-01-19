@@ -14,6 +14,7 @@ public class Main {
             if (continuar) {
                 User.contador++;
                 System.out.println("Digite seu nome: ");
+                input.next();
                 String nome = input.nextLine();
                 System.out.println("Digite sua idade: ");
                 int idade = input.nextInt();
